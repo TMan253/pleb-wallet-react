@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <h1>Current Bitcoin Price</h1>
-      <p>${price} as of {(new Date()).toString()}</p>
+      <h4>${price} as of {(new Date()).toString()}</h4>
     </div>
   );
 }

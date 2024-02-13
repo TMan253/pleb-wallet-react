@@ -2,11 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+After cloning this repo, populate a `.env` file in the project directory that includes a legends.lnbits.com API key for your custodial wallet.  The format should be like:
+> # Secret legends.lnbits.com API key
+> REACT_APP_API_KEY=1234abc
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install`
+
+Installs dependencies locally.
+
+### `npm [run] start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
